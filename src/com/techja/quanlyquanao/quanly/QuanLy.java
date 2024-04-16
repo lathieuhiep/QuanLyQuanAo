@@ -7,8 +7,8 @@ import com.techja.quanlyquanao.sanpham.Quan;
 import com.techja.quanlyquanao.sanpham.SanPham;
 
 public class QuanLy {
-    SanPham dsSanPham[];
-    KhachHang dsKH[];
+    SanPham[] dsSanPham;
+    KhachHang[] dsKH;
 
     public void themSP(SanPham sanPham) {
         // thêm quan vào dsQuan
